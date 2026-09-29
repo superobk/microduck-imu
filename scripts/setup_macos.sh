@@ -7,4 +7,9 @@ PYTHON="${PYTHON:-python3}"
 [[ -d .venv ]] || "$PYTHON" -m venv .venv
 .venv/bin/python -m pip install -r requirements.txt
 .venv/bin/python -m serial.tools.list_ports -v
-printf '\nNext: bash scripts/start_macos.sh\n'
+if [[ -f server.py && -f scripts/start_macos.sh ]]; then
+  printf '\nNext: bash scripts/start_macos.sh\n'
+else
+  printf '\nCLI ready: .venv/bin/python src/firmware/tools/imu_probe.py --port YOUR_PORT diag\n'
+  printf 'The local 3D server is in the complete companion download; see README Delivery scope.\n'
+fi
