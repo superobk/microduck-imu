@@ -1,0 +1,24 @@
+{
+  "schema": "microduck-imu-field/2",
+  "board_id": null,
+  "fabricated_revision": null,
+  "actual_parts": {
+    "imu": null,
+    "mcu": null,
+    "oscillator": null
+  },
+  "firmware_sha256": null,
+  "clock_config": null,
+  "spi_hz": null,
+  "power_v": null,
+  "limit_ma": null,
+  "current_ma": null,
+  "vddio_v": null,
+  "vdd_v": null,
+  "who_samples": null,
+  "scope_files": [],
+  "logs": [],
+  "root_cause_confirmed": false,
+  "bench_status": "NOT_RUN",
+  "operator": null
+}

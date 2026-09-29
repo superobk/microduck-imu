@@ -1,0 +1,23 @@
+{
+  "date": "2026-09-29",
+  "baseline_archive": "Microduck_IMU_STLINK_Web3D_20260926.zip",
+  "baseline_archive_sha256": "34e0106014a09f16e5c79c9efb85f485982a7d0b8f335a0f5733c6c764a2c38e",
+  "baseline_first_bin_sha256": "c52d731446b968ef49d64550b2efe19863a0a1e661f934db8f60de95bd4d1945",
+  "official_release": "daemon-v0.15.0",
+  "official_commit": "a9ec4b2079ef8ee7904014089c885bb07d57d63c",
+  "official_paths_reviewed": {
+    "deploy/robotd.toml": "1c41492c63261724525b1341f5d5c6052a342380",
+    "duck-control/src/bus.rs": "083ab4821681cfc027584d6a97e74c51d3b30195",
+    "duck-control/src/imu.rs": "4ed8d7093af4db0f16593927aa56049e7ed4834b"
+  },
+  "firmware_changes": [
+    "version2 startup diagnostic extension",
+    "4 WHO reads before and after reset, all must match",
+    "separate identity mismatch vs transport errors",
+    "optional1MHz SPI margin comparison",
+    "core124/12 and originalIMU1 ABI preserved"
+  ],
+  "field_report_source": "User conversation: one board responds normally; others show WHO00 orFF and zero counters; raw logs not supplied.",
+  "mac_usb_tested": false,
+  "robotd_binary_executed": false
+}

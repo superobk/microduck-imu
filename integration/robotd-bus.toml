@@ -1,0 +1,4 @@
+# MERGE this into the existing [bus] section; never replace the full robotd config.
+# daemon-v0.15.0 defaults to Fast Sync Read 0x8A, unsupported by this firmware.
+[bus]
+fast_sync_read = false

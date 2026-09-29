@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+*.pyc
+.DS_Store
+src/firmware/build/
+logs/*.jsonl
+logs/*.csv

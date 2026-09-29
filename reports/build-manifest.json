@@ -1,0 +1,79 @@
+{
+  "firmware_version": 2,
+  "hardware_tested": false,
+  "compiler": "clang version 17.0.0 (https://github.com/swiftlang/llvm-project.git 10999b6d034fe318f3d56c83bddb6572593a8bb0)",
+  "configurations": [
+    {
+      "path": "firmware/diag-v2-hsi-dxl-spi4",
+      "spi_hz": 4000000,
+      "clock": "hsi",
+      "transport": "dxl",
+      "faults": 0,
+      "watchdog": 0,
+      "flash_bytes": 7416,
+      "data_bytes": 0,
+      "bss_bytes": 3452,
+      "stack_pointer": "0x20002000",
+      "entry": "0x80000c1",
+      "sha256": {
+        "imu.elf": "e5b12a057e2874c9c5d07b70d6f95b079b9c251bb5996b96ec13136acc071a29",
+        "imu.bin": "3a63f932e8650206802fccd47bad0ed3566af8ffca531e8298701e79c1c811f3",
+        "imu.hex": "e8e8b5f97dcf7d14069be46ce5f697ae2264de57bd00eaf2ec1d6a58b24ed8f2"
+      }
+    },
+    {
+      "path": "firmware/diag-v2-hsi-dxl-spi1",
+      "spi_hz": 1000000,
+      "clock": "hsi",
+      "transport": "dxl",
+      "faults": 0,
+      "watchdog": 0,
+      "flash_bytes": 7416,
+      "data_bytes": 0,
+      "bss_bytes": 3452,
+      "stack_pointer": "0x20002000",
+      "entry": "0x80000c1",
+      "sha256": {
+        "imu.elf": "e90b32ffd6c5f63068ce0e1760118804034de9de206ea48849e70ad532183d44",
+        "imu.bin": "ea9948c46ae28363f086a2bd6fbf32afa9477c1fe508d451c946b0369224ba5d",
+        "imu.hex": "22692fcb766f8643b1839853f50c6a60809943f2613f2395bae7308c1904d566"
+      }
+    },
+    {
+      "path": "firmware/diag-v2-hse-dxl-spi4",
+      "spi_hz": 4000000,
+      "clock": "hse",
+      "transport": "dxl",
+      "faults": 0,
+      "watchdog": 0,
+      "flash_bytes": 7544,
+      "data_bytes": 0,
+      "bss_bytes": 3452,
+      "stack_pointer": "0x20002000",
+      "entry": "0x80000c1",
+      "sha256": {
+        "imu.elf": "9bebcf54eac26b3fd436fcd82c1e63d189d1ae1687a8454dadfc72e79e043dfc",
+        "imu.bin": "0949f19ae55520b8b68196ad2c06d630d14564edaaaca17ea6a4acaa9c1ca51e",
+        "imu.hex": "78b36c877d152bf8dc3db82c524de546ba47182d5321270cdff86d29e290c61e"
+      }
+    },
+    {
+      "path": "firmware/diag-v2-hsi-uart1-spi4",
+      "spi_hz": 4000000,
+      "clock": "hsi",
+      "transport": "uart1",
+      "faults": 0,
+      "watchdog": 0,
+      "flash_bytes": 6576,
+      "data_bytes": 0,
+      "bss_bytes": 3148,
+      "stack_pointer": "0x20002000",
+      "entry": "0x80000c1",
+      "sha256": {
+        "imu.elf": "0bdbef02d50403f8c1b83dc88ffdcb2bb7cf7c880833e31fc40a658985578d73",
+        "imu.bin": "781fb69788841126dba00bbfba883c1f1ee1bea20698244e9a13684bdb872c94",
+        "imu.hex": "d0ee72169f3a8f7a649d630d52fecedcadfa16c47a70184dc81ae3009b31d8ce"
+      }
+    }
+  ]
+}

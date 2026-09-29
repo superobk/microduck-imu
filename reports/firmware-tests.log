@@ -1,0 +1,36 @@
+python3 -m unittest discover -s tests -v
+test_access_lengths_errors (test_firmware.Firmware.test_access_lengths_errors) ... ok
+test_config_failure_stage (test_firmware.Firmware.test_config_failure_stage) ... ok
+test_crc_reject_and_recover (test_firmware.Firmware.test_crc_reject_and_recover) ... ok
+test_debug_extension_and_legacy_compatibility (test_firmware.Firmware.test_debug_extension_and_legacy_compatibility) ... ok
+test_fast_sync_read_explicitly_unsupported (test_firmware.Firmware.test_fast_sync_read_explicitly_unsupported) ... ok
+test_host_diagnostic_layout (test_firmware.Firmware.test_host_diagnostic_layout) ... ok
+test_host_link_echo_crc_and_order (test_firmware.Firmware.test_host_link_echo_crc_and_order) ... ok
+test_host_mount_and_gravity (test_firmware.Firmware.test_host_mount_and_gravity) ... ok
+test_huge_length_recovery (test_firmware.Firmware.test_huge_length_recovery) ... ok
+test_invalid_quaternions (test_firmware.Firmware.test_invalid_quaternions) ... ok
+test_invalid_stuffing (test_firmware.Firmware.test_invalid_stuffing) ... ok
+test_official_16_device_standard_request_core (test_firmware.Firmware.test_official_16_device_standard_request_core) ... ok
+test_official_crc_vector (test_firmware.Firmware.test_official_crc_vector) ... ok
+test_other_ids_and_broadcasts_silent (test_firmware.Firmware.test_other_ids_and_broadcasts_silent) ... ok
+test_ping_model (test_firmware.Firmware.test_ping_model) ... ok
+test_post_reset_failure_and_intermittent_who (test_firmware.Firmware.test_post_reset_failure_and_intermittent_who) ... ok
+test_reboot_and_bench_freeze (test_firmware.Firmware.test_reboot_and_bench_freeze) ... ok
+test_scratch_boundaries (test_firmware.Firmware.test_scratch_boundaries) ... ok
+test_sensor_faults (test_firmware.Firmware.test_sensor_faults) ... ok
+test_sensor_init_and_reserved_bits (test_firmware.Firmware.test_sensor_init_and_reserved_bits) ... ok
+test_sensor_samples_age_and_overrun (test_firmware.Firmware.test_sensor_samples_age_and_overrun) ... ok
+test_servo_preflight_is_read_only (test_firmware.Firmware.test_servo_preflight_is_read_only) ... ok
+test_stale_alert_only_sensor_range (test_firmware.Firmware.test_stale_alert_only_sensor_range) ... ok
+test_stuffing_random_roundtrips (test_firmware.Firmware.test_stuffing_random_roundtrips) ... ok
+test_sync_cancel_timeout_duplicate (test_firmware.Firmware.test_sync_cancel_timeout_duplicate) ... ok
+test_sync_first_and_missing (test_firmware.Firmware.test_sync_first_and_missing) ... ok
+test_sync_predecessors (test_firmware.Firmware.test_sync_predecessors) ... ok
+test_timeout_and_header_recovery (test_firmware.Firmware.test_timeout_and_header_recovery) ... ok
+test_transport_errors_are_not_valid_who (test_firmware.Firmware.test_transport_errors_are_not_valid_who) ... ok
+test_who_00_ff_not_spi_timeout (test_firmware.Firmware.test_who_00_ff_not_spi_timeout) ... ok
+
+----------------------------------------------------------------------
+Ran 30 tests in 2.777s
+
+OK
